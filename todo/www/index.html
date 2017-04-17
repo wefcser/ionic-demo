@@ -50,8 +50,6 @@
             <ion-item ng-repeat="task in tasks" >
               <input type="checkbox" ng-model="task.check" ng-change="checkTask(task)" >
               <lable ng-class="{strike:task.check}" >{{task.title}}</lable>
-              </input>
-              </form>
             </ion-item>
           </ion-list>
       </ion-content>
